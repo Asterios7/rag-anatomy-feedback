@@ -1,0 +1,3350 @@
+{
+    "textbookTOC": [
+        {
+            "chapterNumber": 1,
+            "title": "A First Look at Anatomy",
+            "page": 1,
+            "sections": [
+                {
+                    "number": "1.1",
+                    "title": "History of Human Anatomy",
+                    "page": 2,
+                    "subsections": []
+                },
+                {
+                    "number": "1.2",
+                    "title": "Definition of Anatomy",
+                    "page": 3,
+                    "subsections": [
+                        {
+                            "number": "1.2a",
+                            "title": "Microscopic Anatomy",
+                            "page": 3
+                        },
+                        {
+                            "number": "1.2b",
+                            "title": "Gross Anatomy",
+                            "page": 4
+                        }
+                    ]
+                },
+                {
+                    "number": "1.3",
+                    "title": "Structural Organization of the Body",
+                    "page": 5,
+                    "subsections": [
+                        {
+                            "number": "1.3a",
+                            "title": "Characteristics of Living Things",
+                            "page": 6
+                        },
+                        {
+                            "number": "1.3b",
+                            "title": "Introduction to Organ Systems",
+                            "page": 6
+                        }
+                    ]
+                },
+                {
+                    "number": "1.4",
+                    "title": "Precise Language of Anatomy",
+                    "page": 11,
+                    "subsections": [
+                        {
+                            "number": "1.4a",
+                            "title": "Anatomic Position",
+                            "page": 11
+                        },
+                        {
+                            "number": "1.4b",
+                            "title": "Sections and Planes",
+                            "page": 11
+                        },
+                        {
+                            "number": "1.4c",
+                            "title": "Anatomic Directions",
+                            "page": 12
+                        },
+                        {
+                            "number": "1.4d",
+                            "title": "Regional Anatomy",
+                            "page": 13
+                        },
+                        {
+                            "number": "1.4e",
+                            "title": "Body Cavities and Membranes",
+                            "page": 14
+                        },
+                        {
+                            "number": "1.4f",
+                            "title": "Abdominopelvic Regions and Quadrants",
+                            "page": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 2,
+            "title": "The Cell: Basic Unit of Structure and Function",
+            "page": 23,
+            "sections": [
+                {
+                    "number": "2.1",
+                    "title": "The Study of Cells",
+                    "page": 24,
+                    "subsections": [
+                        {
+                            "number": "2.1a",
+                            "title": "Using the Microscope to Study Cells",
+                            "page": 24
+                        },
+                        {
+                            "number": "2.1b",
+                            "title": "General Functions of Human Body Cells",
+                            "page": 25
+                        }
+                    ]
+                },
+                {
+                    "number": "2.2",
+                    "title": "A Prototypical Cell",
+                    "page": 27,
+                    "subsections": []
+                },
+                {
+                    "number": "2.3",
+                    "title": "Plasma Membrane",
+                    "page": 30,
+                    "subsections": [
+                        {
+                            "number": "2.3a",
+                            "title": "Composition and Structure of Membranes",
+                            "page": 30
+                        },
+                        {
+                            "number": "2.3b",
+                            "title": "Protein-Specific Functions of the Plasma Membrane",
+                            "page": 31
+                        },
+                        {
+                            "number": "2.3c",
+                            "title": "Transport Across the Plasma Membrane",
+                            "page": 32
+                        }
+                    ]
+                },
+                {
+                    "number": "2.4",
+                    "title": "Cytoplasm",
+                    "page": 37,
+                    "subsections": [
+                        {
+                            "number": "2.4a",
+                            "title": "Cytosol",
+                            "page": 37
+                        },
+                        {
+                            "number": "2.4b",
+                            "title": "Inclusions",
+                            "page": 37
+                        },
+                        {
+                            "number": "2.4c",
+                            "title": "Organelles",
+                            "page": 37
+                        }
+                    ]
+                },
+                {
+                    "number": "2.5",
+                    "title": "Nucleus",
+                    "page": 44,
+                    "subsections": [
+                        {
+                            "number": "2.5a",
+                            "title": "Nuclear Envelope",
+                            "page": 44
+                        },
+                        {
+                            "number": "2.5b",
+                            "title": "Nucleoli",
+                            "page": 44
+                        },
+                        {
+                            "number": "2.5c",
+                            "title": "DNA, Chromatin, and Chromosomes",
+                            "page": 45
+                        }
+                    ]
+                },
+                {
+                    "number": "2.6",
+                    "title": "Life Cycle of the Cell",
+                    "page": 46,
+                    "subsections": [
+                        {
+                            "number": "2.6a",
+                            "title": "Interphase",
+                            "page": 46
+                        },
+                        {
+                            "number": "2.6b",
+                            "title": "Mitotic (M) Phase",
+                            "page": 47
+                        }
+                    ]
+                },
+                {
+                    "number": "2.7",
+                    "title": "Aging and the Cell",
+                    "page": 49,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 3,
+            "title": "Embryology",
+            "page": 54,
+            "sections": [
+                {
+                    "number": "3.1",
+                    "title": "Overview of Embryology",
+                    "page": 55,
+                    "subsections": []
+                },
+                {
+                    "number": "3.2",
+                    "title": "Gametogenesis",
+                    "page": 56,
+                    "subsections": [
+                        {
+                            "number": "3.2a",
+                            "title": "Meiosis",
+                            "page": 57
+                        },
+                        {
+                            "number": "3.2b",
+                            "title": "Oocyte Development (Oogenesis)",
+                            "page": 59
+                        },
+                        {
+                            "number": "3.2c",
+                            "title": "Sperm Development (Spermatogenesis)",
+                            "page": 60
+                        }
+                    ]
+                },
+                {
+                    "number": "3.3",
+                    "title": "Pre-embryonic Period",
+                    "page": 60,
+                    "subsections": [
+                        {
+                            "number": "3.3a",
+                            "title": "Fertilization",
+                            "page": 60
+                        },
+                        {
+                            "number": "3.3b",
+                            "title": "Cleavage",
+                            "page": 63
+                        },
+                        {
+                            "number": "3.3c",
+                            "title": "Implantation",
+                            "page": 64
+                        },
+                        {
+                            "number": "3.3d",
+                            "title": "Formation of the Bilaminar Germinal Disc and the Extraembryonic Membranes",
+                            "page": 64
+                        },
+                        {
+                            "number": "3.3e",
+                            "title": "Development of the Placenta",
+                            "page": 65
+                        }
+                    ]
+                },
+                {
+                    "number": "3.4",
+                    "title": "Embryonic Period",
+                    "page": 67,
+                    "subsections": [
+                        {
+                            "number": "3.4a",
+                            "title": "Gastrulation",
+                            "page": 68
+                        },
+                        {
+                            "number": "3.4b",
+                            "title": "Folding of the Embryonic Disc",
+                            "page": 68
+                        },
+                        {
+                            "number": "3.4c",
+                            "title": "Differentiation of Ectoderm",
+                            "page": 70
+                        },
+                        {
+                            "number": "3.4d",
+                            "title": "Differentiation of Mesoderm",
+                            "page": 70
+                        },
+                        {
+                            "number": "3.4e",
+                            "title": "Differentiation of Endoderm",
+                            "page": 71
+                        },
+                        {
+                            "number": "3.4f",
+                            "title": "Organogenesis",
+                            "page": 74
+                        }
+                    ]
+                },
+                {
+                    "number": "3.5",
+                    "title": "Fetal Period",
+                    "page": 74,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 4,
+            "title": "Tissue Level of Organization",
+            "page": 80,
+            "sections": [
+                {
+                    "number": "4.1",
+                    "title": "Epithelial Tissue",
+                    "page": 81,
+                    "subsections": [
+                        {
+                            "number": "4.1a",
+                            "title": "Characteristics of Epithelial Tissue",
+                            "page": 81
+                        },
+                        {
+                            "number": "4.1b",
+                            "title": "Functions of Epithelial Tissue",
+                            "page": 82
+                        },
+                        {
+                            "number": "4.1c",
+                            "title": "Specialized Structures of Epithelial Tissue",
+                            "page": 82
+                        },
+                        {
+                            "number": "4.1d",
+                            "title": "Classification of Epithelial Tissue",
+                            "page": 83
+                        },
+                        {
+                            "number": "4.1e",
+                            "title": "Types of Epithelium",
+                            "page": 84
+                        },
+                        {
+                            "number": "4.1f",
+                            "title": "Glands",
+                            "page": 91
+                        }
+                    ]
+                },
+                {
+                    "number": "4.2",
+                    "title": "Connective Tissue",
+                    "page": 95,
+                    "subsections": [
+                        {
+                            "number": "4.2a",
+                            "title": "Characteristics of Connective Tissue",
+                            "page": 95
+                        },
+                        {
+                            "number": "4.2b",
+                            "title": "Functions of Connective Tissue",
+                            "page": 96
+                        },
+                        {
+                            "number": "4.2c",
+                            "title": "Development of Connective Tissue",
+                            "page": 96
+                        },
+                        {
+                            "number": "4.2d",
+                            "title": "Classification of Connective Tissue",
+                            "page": 96
+                        }
+                    ]
+                },
+                {
+                    "number": "4.3",
+                    "title": "Body Membranes",
+                    "page": 108,
+                    "subsections": []
+                },
+                {
+                    "number": "4.4",
+                    "title": "Muscle Tissue",
+                    "page": 109,
+                    "subsections": [
+                        {
+                            "number": "4.4a",
+                            "title": "Classification of Muscle Tissue",
+                            "page": 109
+                        }
+                    ]
+                },
+                {
+                    "number": "4.5",
+                    "title": "Nervous Tissue",
+                    "page": 111,
+                    "subsections": [
+                        {
+                            "number": "4.5a",
+                            "title": "Characteristics of Neurons",
+                            "page": 111
+                        }
+                    ]
+                },
+                {
+                    "number": "4.6",
+                    "title": "Tissue Change and Aging",
+                    "page": 112,
+                    "subsections": [
+                        {
+                            "number": "4.6a",
+                            "title": "Tissue Change",
+                            "page": 112
+                        },
+                        {
+                            "number": "4.6b",
+                            "title": "Tissue Aging",
+                            "page": 112
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 5,
+            "title": "Integumentary System",
+            "page": 117,
+            "sections": [
+                {
+                    "number": "5.1",
+                    "title": "Structure and Functions of the Integument",
+                    "page": 118,
+                    "subsections": [
+                        {
+                            "number": "5.1a",
+                            "title": "Integument Structure",
+                            "page": 118
+                        },
+                        {
+                            "number": "5.1b",
+                            "title": "Integument Functions",
+                            "page": 119
+                        }
+                    ]
+                },
+                {
+                    "number": "5.2",
+                    "title": "Epidermis",
+                    "page": 120,
+                    "subsections": [
+                        {
+                            "number": "5.2a",
+                            "title": "Epidermal Strata",
+                            "page": 120
+                        },
+                        {
+                            "number": "5.2b",
+                            "title": "Variations in the Epidermis",
+                            "page": 122
+                        }
+                    ]
+                },
+                {
+                    "number": "5.3",
+                    "title": "Dermis",
+                    "page": 124,
+                    "subsections": [
+                        {
+                            "number": "5.3a",
+                            "title": "Papillary Layer of the Dermis",
+                            "page": 124
+                        },
+                        {
+                            "number": "5.3b",
+                            "title": "Reticular Layer of the Dermis",
+                            "page": 125
+                        },
+                        {
+                            "number": "5.3c",
+                            "title": "Lines of Cleavage and Stretch Marks",
+                            "page": 125
+                        },
+                        {
+                            "number": "5.3d",
+                            "title": "Innervation and Blood Supply",
+                            "page": 125
+                        }
+                    ]
+                },
+                {
+                    "number": "5.4",
+                    "title": "Subcutaneous Layer",
+                    "page": 126,
+                    "subsections": []
+                },
+                {
+                    "number": "5.5",
+                    "title": "Integumentary Structures Derived from Epidermis",
+                    "page": 127,
+                    "subsections": [
+                        {
+                            "number": "5.5a",
+                            "title": "Nails",
+                            "page": 128
+                        },
+                        {
+                            "number": "5.5b",
+                            "title": "Hair",
+                            "page": 128
+                        },
+                        {
+                            "number": "5.5c",
+                            "title": "Exocrine Glands of the Skin",
+                            "page": 131
+                        }
+                    ]
+                },
+                {
+                    "number": "5.6",
+                    "title": "Integument Repair and Regeneration",
+                    "page": 135,
+                    "subsections": []
+                },
+                {
+                    "number": "5.7",
+                    "title": "Aging of the Integument",
+                    "page": 136,
+                    "subsections": [
+                        {
+                            "number": "5.7a",
+                            "title": "Skin Cancer",
+                            "page": 137
+                        }
+                    ]
+                },
+                {
+                    "number": "5.8",
+                    "title": "Development of the Integumentary System",
+                    "page": 138,
+                    "subsections": [
+                        {
+                            "number": "5.8a",
+                            "title": "Integument Development",
+                            "page": 138
+                        },
+                        {
+                            "number": "5.8b",
+                            "title": "Nail Development",
+                            "page": 139
+                        },
+                        {
+                            "number": "5.8c",
+                            "title": "Hair Development",
+                            "page": 139
+                        },
+                        {
+                            "number": "5.8d",
+                            "title": "Sebaceous and Sweat Gland Development",
+                            "page": 139
+                        },
+                        {
+                            "number": "5.8e",
+                            "title": "Mammary Gland Development",
+                            "page": 139
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 6,
+            "title": "Cartilage and Bone",
+            "page": 144,
+            "sections": [
+                {
+                    "number": "6.1",
+                    "title": "Cartilage",
+                    "page": 145,
+                    "subsections": [
+                        {
+                            "number": "6.1a",
+                            "title": "Functions of Cartilage",
+                            "page": 145
+                        },
+                        {
+                            "number": "6.1b",
+                            "title": "Growth Patterns of Cartilage",
+                            "page": 146
+                        }
+                    ]
+                },
+                {
+                    "number": "6.2",
+                    "title": "Bone",
+                    "page": 146,
+                    "subsections": [
+                        {
+                            "number": "6.2a",
+                            "title": "Functions of Bone",
+                            "page": 146
+                        }
+                    ]
+                },
+                {
+                    "number": "6.3",
+                    "title": "Classification and Anatomy of Bones",
+                    "page": 148,
+                    "subsections": [
+                        {
+                            "number": "6.3a",
+                            "title": "General Structure and Gross Anatomy of Long Bones",
+                            "page": 148
+                        }
+                    ]
+                },
+                {
+                    "number": "6.4",
+                    "title": "Ossification",
+                    "page": 154,
+                    "subsections": [
+                        {
+                            "number": "6.4a",
+                            "title": "Intramembranous Ossification",
+                            "page": 154
+                        },
+                        {
+                            "number": "6.4b",
+                            "title": "Endochondral Ossification",
+                            "page": 156
+                        },
+                        {
+                            "number": "6.4c",
+                            "title": "Epiphyseal Plate Morphology",
+                            "page": 157
+                        },
+                        {
+                            "number": "6.4d",
+                            "title": "Growth of Bone",
+                            "page": 158
+                        },
+                        {
+                            "number": "6.4e",
+                            "title": "Blood Supply and Innervation",
+                            "page": 160
+                        }
+                    ]
+                },
+                {
+                    "number": "6.5",
+                    "title": "Maintaining Homeostasis and Promoting Bone Growth",
+                    "page": 161,
+                    "subsections": [
+                        {
+                            "number": "6.5a",
+                            "title": "Effects of Hormones",
+                            "page": 161
+                        },
+                        {
+                            "number": "6.5b",
+                            "title": "Effects of Vitamins",
+                            "page": 161
+                        },
+                        {
+                            "number": "6.5c",
+                            "title": "Effects of Exercise",
+                            "page": 161
+                        },
+                        {
+                            "number": "6.5d",
+                            "title": "Fracture and Repair",
+                            "page": 163
+                        }
+                    ]
+                },
+                {
+                    "number": "6.6",
+                    "title": "Bone Markings",
+                    "page": 164,
+                    "subsections": []
+                },
+                {
+                    "number": "6.7",
+                    "title": "Aging of the Skeletal System",
+                    "page": 165,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 7,
+            "title": "Axial Skeleton",
+            "page": 170,
+            "sections": [
+                {
+                    "number": "7.1",
+                    "title": "Skull",
+                    "page": 172,
+                    "subsections": [
+                        {
+                            "number": "7.1a",
+                            "title": "Views of the Skull and Landmark Features",
+                            "page": 173
+                        },
+                        {
+                            "number": "7.1b",
+                            "title": "Sutures",
+                            "page": 182
+                        },
+                        {
+                            "number": "7.1c",
+                            "title": "Bones of the Cranium",
+                            "page": 182
+                        },
+                        {
+                            "number": "7.1d",
+                            "title": "Bones of the Face",
+                            "page": 190
+                        },
+                        {
+                            "number": "7.1e",
+                            "title": "Nasal Complex",
+                            "page": 195
+                        },
+                        {
+                            "number": "7.1f",
+                            "title": "Paranasal Sinuses",
+                            "page": 195
+                        },
+                        {
+                            "number": "7.1g",
+                            "title": "Orbital Complex",
+                            "page": 195
+                        },
+                        {
+                            "number": "7.1h",
+                            "title": "Bones Associated with the Skull",
+                            "page": 195
+                        }
+                    ]
+                },
+                {
+                    "number": "7.2",
+                    "title": "Sexually Dimorphic Features of the Skull",
+                    "page": 198,
+                    "subsections": []
+                },
+                {
+                    "number": "7.3",
+                    "title": "Aging of the Skull",
+                    "page": 198,
+                    "subsections": []
+                },
+                {
+                    "number": "7.4",
+                    "title": "Vertebral Column",
+                    "page": 201,
+                    "subsections": [
+                        {
+                            "number": "7.4a",
+                            "title": "Divisions of the Vertebral Column",
+                            "page": 201
+                        },
+                        {
+                            "number": "7.4b",
+                            "title": "Spinal Curvatures",
+                            "page": 201
+                        },
+                        {
+                            "number": "7.4c",
+                            "title": "Vertebral Anatomy",
+                            "page": 202
+                        }
+                    ]
+                },
+                {
+                    "number": "7.5",
+                    "title": "Thoracic Cage",
+                    "page": 209,
+                    "subsections": [
+                        {
+                            "number": "7.5a",
+                            "title": "Sternum",
+                            "page": 209
+                        },
+                        {
+                            "number": "7.5b",
+                            "title": "Ribs",
+                            "page": 209
+                        }
+                    ]
+                },
+                {
+                    "number": "7.6",
+                    "title": "Aging of the Axial Skeleton",
+                    "page": 211,
+                    "subsections": []
+                },
+                {
+                    "number": "7.7",
+                    "title": "Development of the Axial Skeleton",
+                    "page": 211,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 8,
+            "title": "Appendicular Skeleton",
+            "page": 216,
+            "sections": [
+                {
+                    "number": "8.1",
+                    "title": "Pectoral Girdle",
+                    "page": 217,
+                    "subsections": [
+                        {
+                            "number": "8.1a",
+                            "title": "Clavicle",
+                            "page": 217
+                        },
+                        {
+                            "number": "8.1b",
+                            "title": "Scapula",
+                            "page": 217
+                        }
+                    ]
+                },
+                {
+                    "number": "8.2",
+                    "title": "Upper Limb",
+                    "page": 221,
+                    "subsections": [
+                        {
+                            "number": "8.2a",
+                            "title": "Humerus",
+                            "page": 221
+                        },
+                        {
+                            "number": "8.2b",
+                            "title": "Radius and Ulna",
+                            "page": 221
+                        },
+                        {
+                            "number": "8.2c",
+                            "title": "Carpals, Metacarpals, and Phalanges",
+                            "page": 226
+                        }
+                    ]
+                },
+                {
+                    "number": "8.3",
+                    "title": "Pelvic Girdle",
+                    "page": 226,
+                    "subsections": [
+                        {
+                            "number": "8.3a",
+                            "title": "Os Coxae",
+                            "page": 228
+                        },
+                        {
+                            "number": "8.3b",
+                            "title": "True and False Pelves",
+                            "page": 229
+                        },
+                        {
+                            "number": "8.3c",
+                            "title": "Sexually Dimorphic Features of the Pelves",
+                            "page": 229
+                        }
+                    ]
+                },
+                {
+                    "number": "8.4",
+                    "title": "Lower Limb",
+                    "page": 232,
+                    "subsections": [
+                        {
+                            "number": "8.4a",
+                            "title": "Femur",
+                            "page": 232
+                        },
+                        {
+                            "number": "8.4b",
+                            "title": "Patella",
+                            "page": 236
+                        },
+                        {
+                            "number": "8.4c",
+                            "title": "Tibia and Fibula",
+                            "page": 236
+                        },
+                        {
+                            "number": "8.4d",
+                            "title": "Tarsals, Metatarsals, and Phalanges",
+                            "page": 237
+                        }
+                    ]
+                },
+                {
+                    "number": "8.5",
+                    "title": "Aging of the Appendicular Skeleton",
+                    "page": 241,
+                    "subsections": []
+                },
+                {
+                    "number": "8.6",
+                    "title": "Development of the Appendicular Skeleton",
+                    "page": 241,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 9,
+            "title": "Articulations",
+            "page": 248,
+            "sections": [
+                {
+                    "number": "9.1",
+                    "title": "Articulations (Joints)",
+                    "page": 249,
+                    "subsections": [
+                        {
+                            "number": "9.1a",
+                            "title": "Classification of Joints",
+                            "page": 249
+                        }
+                    ]
+                },
+                {
+                    "number": "9.2",
+                    "title": "Fibrous Joints",
+                    "page": 250,
+                    "subsections": [
+                        {
+                            "number": "9.2a",
+                            "title": "Gomphoses",
+                            "page": 250
+                        },
+                        {
+                            "number": "9.2b",
+                            "title": "Sutures",
+                            "page": 251
+                        },
+                        {
+                            "number": "9.2c",
+                            "title": "Syndesmoses",
+                            "page": 251
+                        }
+                    ]
+                },
+                {
+                    "number": "9.3",
+                    "title": "Cartilaginous Joints",
+                    "page": 251,
+                    "subsections": [
+                        {
+                            "number": "9.3a",
+                            "title": "Synchondroses",
+                            "page": 251
+                        },
+                        {
+                            "number": "9.3b",
+                            "title": "Symphyses",
+                            "page": 252
+                        }
+                    ]
+                },
+                {
+                    "number": "9.4",
+                    "title": "Synovial Joints",
+                    "page": 252,
+                    "subsections": [
+                        {
+                            "number": "9.4a",
+                            "title": "General Anatomy of Synovial Joints",
+                            "page": 253
+                        },
+                        {
+                            "number": "9.4b",
+                            "title": "Classifications of Synovial Joints",
+                            "page": 254
+                        },
+                        {
+                            "number": "9.4c",
+                            "title": "Movements at Synovial Joints",
+                            "page": 256
+                        }
+                    ]
+                },
+                {
+                    "number": "9.5",
+                    "title": "Selected Articulations in Depth",
+                    "page": 261,
+                    "subsections": [
+                        {
+                            "number": "9.5a",
+                            "title": "Joints of the Axial Skeleton",
+                            "page": 261
+                        },
+                        {
+                            "number": "9.5b",
+                            "title": "Joints of the Pectoral Girdle and Upper Limbs",
+                            "page": 264
+                        },
+                        {
+                            "number": "9.5c",
+                            "title": "Joints of the Pelvic Girdle and Lower Limbs",
+                            "page": 270
+                        }
+                    ]
+                },
+                {
+                    "number": "9.6",
+                    "title": "Aging of the Joints",
+                    "page": 277,
+                    "subsections": []
+                },
+                {
+                    "number": "9.7",
+                    "title": "Development of the Joints",
+                    "page": 279,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 10,
+            "title": "Muscle Tissue and Organization",
+            "page": 283,
+            "sections": [
+                {
+                    "number": "10.1",
+                    "title": "Properties of Muscle Tissue",
+                    "page": 284,
+                    "subsections": []
+                },
+                {
+                    "number": "10.2",
+                    "title": "Characteristics of Skeletal Muscle Tissue",
+                    "page": 284,
+                    "subsections": [
+                        {
+                            "number": "10.2a",
+                            "title": "Functions of Skeletal Muscle Tissue",
+                            "page": 284
+                        },
+                        {
+                            "number": "10.2b",
+                            "title": "Gross Anatomy of Skeletal Muscle",
+                            "page": 284
+                        },
+                        {
+                            "number": "10.2c",
+                            "title": "Microscopic Anatomy of Skeletal Muscle",
+                            "page": 287
+                        }
+                    ]
+                },
+                {
+                    "number": "10.3",
+                    "title": "Contraction of Skeletal Muscle Fibers",
+                    "page": 293,
+                    "subsections": [
+                        {
+                            "number": "10.3a",
+                            "title": "The Sliding Filament Theory",
+                            "page": 293
+                        },
+                        {
+                            "number": "10.3b",
+                            "title": "Neuromuscular Junctions",
+                            "page": 293
+                        },
+                        {
+                            "number": "10.3c",
+                            "title": "Physiology of Muscle Contraction",
+                            "page": 294
+                        },
+                        {
+                            "number": "10.3d",
+                            "title": "Muscle Contraction: A Summary",
+                            "page": 296
+                        },
+                        {
+                            "number": "10.3e",
+                            "title": "Motor Units",
+                            "page": 298
+                        }
+                    ]
+                },
+                {
+                    "number": "10.4",
+                    "title": "Types of Skeletal Muscle Fibers",
+                    "page": 299,
+                    "subsections": [
+                        {
+                            "number": "10.4a",
+                            "title": "Distribution of Slow Oxidative, Fast Oxidative, and Fast Glycolytic Fibers",
+                            "page": 300
+                        }
+                    ]
+                },
+                {
+                    "number": "10.5",
+                    "title": "Skeletal Muscle Fiber Organization",
+                    "page": 301,
+                    "subsections": [
+                        {
+                            "number": "10.5a",
+                            "title": "Circular Muscles",
+                            "page": 301
+                        },
+                        {
+                            "number": "10.5b",
+                            "title": "Parallel Muscles",
+                            "page": 301
+                        },
+                        {
+                            "number": "10.5c",
+                            "title": "Convergent Muscles",
+                            "page": 301
+                        },
+                        {
+                            "number": "10.5d",
+                            "title": "Pennate Muscles",
+                            "page": 302
+                        }
+                    ]
+                },
+                {
+                    "number": "10.6",
+                    "title": "Exercise and Skeletal Muscle",
+                    "page": 302,
+                    "subsections": [
+                        {
+                            "number": "10.6a",
+                            "title": "Muscle Hypertrophy",
+                            "page": 303
+                        },
+                        {
+                            "number": "10.6b",
+                            "title": "Muscle Atrophy",
+                            "page": 303
+                        }
+                    ]
+                },
+                {
+                    "number": "10.7",
+                    "title": "Levers and Joint Biomechanics",
+                    "page": 303,
+                    "subsections": [
+                        {
+                            "number": "10.7a",
+                            "title": "Classes of Levers",
+                            "page": 303
+                        },
+                        {
+                            "number": "10.7b",
+                            "title": "Actions of Skeletal Muscles",
+                            "page": 303
+                        }
+                    ]
+                },
+                {
+                    "number": "10.8",
+                    "title": "The Naming of Skeletal Muscles",
+                    "page": 305,
+                    "subsections": []
+                },
+                {
+                    "number": "10.9",
+                    "title": "Characteristics of Cardiac and Smooth Muscle",
+                    "page": 306,
+                    "subsections": [
+                        {
+                            "number": "10.9a",
+                            "title": "Cardiac Muscle",
+                            "page": 306
+                        },
+                        {
+                            "number": "10.9b",
+                            "title": "Smooth Muscle",
+                            "page": 307
+                        }
+                    ]
+                },
+                {
+                    "number": "10.10",
+                    "title": "Aging and the Muscular System",
+                    "page": 307,
+                    "subsections": []
+                },
+                {
+                    "number": "10.11",
+                    "title": "Development of the Muscular System",
+                    "page": 307,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 11,
+            "title": "Axial Muscles",
+            "page": 316,
+            "sections": [
+                {
+                    "number": "11.1",
+                    "title": "Muscles of the Head and Neck",
+                    "page": 317,
+                    "subsections": [
+                        {
+                            "number": "11.1a",
+                            "title": "Muscles of Facial Expression",
+                            "page": 317
+                        },
+                        {
+                            "number": "11.1b",
+                            "title": "Extrinsic Eye Muscles",
+                            "page": 322
+                        },
+                        {
+                            "number": "11.1c",
+                            "title": "Muscles of Mastication",
+                            "page": 326
+                        },
+                        {
+                            "number": "11.1d",
+                            "title": "Muscles That Move the Tongue",
+                            "page": 326
+                        },
+                        {
+                            "number": "11.1e",
+                            "title": "Muscles of the Pharynx",
+                            "page": 327
+                        },
+                        {
+                            "number": "11.1f",
+                            "title": "Muscles of the Anterior Neck",
+                            "page": 328
+                        },
+                        {
+                            "number": "11.1g",
+                            "title": "Muscles That Move the Head and Neck",
+                            "page": 331
+                        }
+                    ]
+                },
+                {
+                    "number": "11.2",
+                    "title": "Muscles of the Vertebral Column",
+                    "page": 334,
+                    "subsections": []
+                },
+                {
+                    "number": "11.3",
+                    "title": "Muscles of Respiration",
+                    "page": 336,
+                    "subsections": []
+                },
+                {
+                    "number": "11.4",
+                    "title": "Muscles of the Abdominal Wall",
+                    "page": 339,
+                    "subsections": []
+                },
+                {
+                    "number": "11.5",
+                    "title": "Muscles of the Pelvic Floor",
+                    "page": 342,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 12,
+            "title": "Appendicular Muscles",
+            "page": 347,
+            "sections": [
+                {
+                    "number": "12.1",
+                    "title": "Muscles of the Pectoral Girdle and Upper Limb",
+                    "page": 348,
+                    "subsections": [
+                        {
+                            "number": "12.1a",
+                            "title": "Muscles That Move the Pectoral Girdle",
+                            "page": 348
+                        },
+                        {
+                            "number": "12.1b",
+                            "title": "Muscles That Move the Glenohumeral Joint/Arm",
+                            "page": 353
+                        },
+                        {
+                            "number": "12.1c",
+                            "title": "Arm and Forearm Muscles That Move the Elbow Joint/Forearm",
+                            "page": 356
+                        },
+                        {
+                            "number": "12.1d",
+                            "title": "Forearm Muscles That Move the Wrist Joint, Hand, and Fingers",
+                            "page": 360
+                        },
+                        {
+                            "number": "12.1e",
+                            "title": "Intrinsic Muscles of the Hand",
+                            "page": 367
+                        }
+                    ]
+                },
+                {
+                    "number": "12.2",
+                    "title": "Muscles of the Pelvic Girdle and Lower Limb",
+                    "page": 369,
+                    "subsections": [
+                        {
+                            "number": "12.2a",
+                            "title": "Muscles That Move the Hip Joint/Thigh",
+                            "page": 369
+                        },
+                        {
+                            "number": "12.2b",
+                            "title": "Thigh Muscles That Move the Knee Joint/Leg",
+                            "page": 374
+                        },
+                        {
+                            "number": "12.2c",
+                            "title": "Leg Muscles",
+                            "page": 377
+                        },
+                        {
+                            "number": "12.2d",
+                            "title": "Intrinsic Muscles of the Foot",
+                            "page": 383
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 13,
+            "title": "Surface Anatomy",
+            "page": 390,
+            "sections": [
+                {
+                    "number": "13.1",
+                    "title": "A Regional Approach to Surface Anatomy",
+                    "page": 391,
+                    "subsections": []
+                },
+                {
+                    "number": "13.2",
+                    "title": "Head Region",
+                    "page": 391,
+                    "subsections": [
+                        {
+                            "number": "13.2a",
+                            "title": "Cranium",
+                            "page": 392
+                        },
+                        {
+                            "number": "13.2b",
+                            "title": "Face",
+                            "page": 392
+                        }
+                    ]
+                },
+                {
+                    "number": "13.3",
+                    "title": "Neck Region",
+                    "page": 393,
+                    "subsections": []
+                },
+                {
+                    "number": "13.4",
+                    "title": "Trunk Region",
+                    "page": 395,
+                    "subsections": [
+                        {
+                            "number": "13.4a",
+                            "title": "Thorax",
+                            "page": 395
+                        },
+                        {
+                            "number": "13.4b",
+                            "title": "Abdominopelvic Region",
+                            "page": 395
+                        },
+                        {
+                            "number": "13.4c",
+                            "title": "Back",
+                            "page": 397
+                        }
+                    ]
+                },
+                {
+                    "number": "13.5",
+                    "title": "Shoulder and Upper Limb Region",
+                    "page": 398,
+                    "subsections": [
+                        {
+                            "number": "13.5a",
+                            "title": "Shoulder",
+                            "page": 398
+                        },
+                        {
+                            "number": "13.5b",
+                            "title": "Axilla",
+                            "page": 398
+                        },
+                        {
+                            "number": "13.5c",
+                            "title": "Arm",
+                            "page": 398
+                        },
+                        {
+                            "number": "13.5d",
+                            "title": "Forearm",
+                            "page": 399
+                        },
+                        {
+                            "number": "13.5e",
+                            "title": "Hand",
+                            "page": 399
+                        }
+                    ]
+                },
+                {
+                    "number": "13.6",
+                    "title": "Lower Limb Region",
+                    "page": 401,
+                    "subsections": [
+                        {
+                            "number": "13.6a",
+                            "title": "Gluteal Region",
+                            "page": 401
+                        },
+                        {
+                            "number": "13.6b",
+                            "title": "Thigh",
+                            "page": 401
+                        },
+                        {
+                            "number": "13.6c",
+                            "title": "Leg",
+                            "page": 402
+                        },
+                        {
+                            "number": "13.6d",
+                            "title": "Foot",
+                            "page": 404
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 14,
+            "title": "Nervous Tissue",
+            "page": 407,
+            "sections": [
+                {
+                    "number": "14.1",
+                    "title": "Organization of the Nervous System",
+                    "page": 408,
+                    "subsections": [
+                        {
+                            "number": "14.1a",
+                            "title": "Structural Organization: Central and Peripheral Nervous Systems",
+                            "page": 408
+                        },
+                        {
+                            "number": "14.1b",
+                            "title": "Functional Organization: Sensory and Motor Nervous Systems",
+                            "page": 408
+                        }
+                    ]
+                },
+                {
+                    "number": "14.2",
+                    "title": "Cytology of Nervous Tissue",
+                    "page": 410,
+                    "subsections": [
+                        {
+                            "number": "14.2a",
+                            "title": "Neurons",
+                            "page": 410
+                        },
+                        {
+                            "number": "14.2b",
+                            "title": "Glial Cells",
+                            "page": 413
+                        }
+                    ]
+                },
+                {
+                    "number": "14.3",
+                    "title": "Myelination of Axons",
+                    "page": 417,
+                    "subsections": [
+                        {
+                            "number": "14.3a",
+                            "title": "Myelination",
+                            "page": 417
+                        },
+                        {
+                            "number": "14.3b",
+                            "title": "Nerve Impulse Conduction",
+                            "page": 418
+                        }
+                    ]
+                },
+                {
+                    "number": "14.4",
+                    "title": "Axon Regeneration",
+                    "page": 420,
+                    "subsections": []
+                },
+                {
+                    "number": "14.5",
+                    "title": "Nerves",
+                    "page": 420,
+                    "subsections": []
+                },
+                {
+                    "number": "14.6",
+                    "title": "Synapses",
+                    "page": 422,
+                    "subsections": [
+                        {
+                            "number": "14.6a",
+                            "title": "Synaptic Communication",
+                            "page": 423
+                        }
+                    ]
+                },
+                {
+                    "number": "14.7",
+                    "title": "Neural Integration and Neural Circuits",
+                    "page": 425,
+                    "subsections": []
+                },
+                {
+                    "number": "14.8",
+                    "title": "Development of the Nervous System",
+                    "page": 426,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 15,
+            "title": "Brain and Cranial Nerves",
+            "page": 431,
+            "sections": [
+                {
+                    "number": "15.1",
+                    "title": "Brain Development and Tissue Organization",
+                    "page": 432,
+                    "subsections": [
+                        {
+                            "number": "15.1a",
+                            "title": "Embryonic Development of the Brain",
+                            "page": 433
+                        },
+                        {
+                            "number": "15.1b",
+                            "title": "Organization of Neural Tissue Areas in the Brain",
+                            "page": 436
+                        }
+                    ]
+                },
+                {
+                    "number": "15.2",
+                    "title": "Support and Protection of the Brain",
+                    "page": 438,
+                    "subsections": [
+                        {
+                            "number": "15.2a",
+                            "title": "Cranial Meninges",
+                            "page": 440
+                        },
+                        {
+                            "number": "15.2b",
+                            "title": "Brain Ventricles",
+                            "page": 442
+                        },
+                        {
+                            "number": "15.2c",
+                            "title": "Cerebrospinal Fluid",
+                            "page": 442
+                        },
+                        {
+                            "number": "15.2d",
+                            "title": "Blood-Brain Barrier",
+                            "page": 444
+                        }
+                    ]
+                },
+                {
+                    "number": "15.3",
+                    "title": "Cerebrum",
+                    "page": 446,
+                    "subsections": [
+                        {
+                            "number": "15.3a",
+                            "title": "Cerebral Hemispheres",
+                            "page": 446
+                        },
+                        {
+                            "number": "15.3b",
+                            "title": "Functional Areas of the Cerebrum",
+                            "page": 448
+                        },
+                        {
+                            "number": "15.3c",
+                            "title": "Central White Matter",
+                            "page": 451
+                        },
+                        {
+                            "number": "15.3d",
+                            "title": "Cerebral Nuclei",
+                            "page": 453
+                        }
+                    ]
+                },
+                {
+                    "number": "15.4",
+                    "title": "Diencephalon",
+                    "page": 454,
+                    "subsections": [
+                        {
+                            "number": "15.4a",
+                            "title": "Epithalamus",
+                            "page": 455
+                        },
+                        {
+                            "number": "15.4b",
+                            "title": "Thalamus",
+                            "page": 455
+                        },
+                        {
+                            "number": "15.4c",
+                            "title": "Hypothalamus",
+                            "page": 456
+                        }
+                    ]
+                },
+                {
+                    "number": "15.5",
+                    "title": "Brainstem",
+                    "page": 457,
+                    "subsections": [
+                        {
+                            "number": "15.5a",
+                            "title": "Midbrain",
+                            "page": 457
+                        },
+                        {
+                            "number": "15.5b",
+                            "title": "Pons",
+                            "page": 459
+                        },
+                        {
+                            "number": "15.5c",
+                            "title": "Medulla Oblongata",
+                            "page": 460
+                        }
+                    ]
+                },
+                {
+                    "number": "15.6",
+                    "title": "Cerebellum",
+                    "page": 461,
+                    "subsections": [
+                        {
+                            "number": "15.6a",
+                            "title": "Cerebellar Peduncles",
+                            "page": 462
+                        }
+                    ]
+                },
+                {
+                    "number": "15.7",
+                    "title": "Limbic System",
+                    "page": 462,
+                    "subsections": []
+                },
+                {
+                    "number": "15.8",
+                    "title": "Cranial Nerves",
+                    "page": 465,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 16,
+            "title": "Spinal Cord and Spinal Nerves",
+            "page": 477,
+            "sections": [
+                {
+                    "number": "16.1",
+                    "title": "Gross Anatomy of the Spinal Cord",
+                    "page": 478,
+                    "subsections": []
+                },
+                {
+                    "number": "16.2",
+                    "title": "Spinal Cord Meninges",
+                    "page": 480,
+                    "subsections": []
+                },
+                {
+                    "number": "16.3",
+                    "title": "Sectional Anatomy of the Spinal Cord",
+                    "page": 482,
+                    "subsections": [
+                        {
+                            "number": "16.3a",
+                            "title": "Distribution of Gray Matter",
+                            "page": 482
+                        },
+                        {
+                            "number": "16.3b",
+                            "title": "Distribution of White Matter",
+                            "page": 483
+                        }
+                    ]
+                },
+                {
+                    "number": "16.4",
+                    "title": "Spinal Nerves",
+                    "page": 484,
+                    "subsections": [
+                        {
+                            "number": "16.4a",
+                            "title": "Spinal Nerve Distribution",
+                            "page": 484
+                        },
+                        {
+                            "number": "16.4b",
+                            "title": "Nerve Plexuses",
+                            "page": 486
+                        },
+                        {
+                            "number": "16.4c",
+                            "title": "Intercostal Nerves",
+                            "page": 487
+                        },
+                        {
+                            "number": "16.4d",
+                            "title": "Cervical Plexuses",
+                            "page": 487
+                        },
+                        {
+                            "number": "16.4e",
+                            "title": "Brachial Plexuses",
+                            "page": 488
+                        },
+                        {
+                            "number": "16.4f",
+                            "title": "Lumbar Plexuses",
+                            "page": 493
+                        },
+                        {
+                            "number": "16.4g",
+                            "title": "Sacral Plexuses",
+                            "page": 496
+                        }
+                    ]
+                },
+                {
+                    "number": "16.5",
+                    "title": "Reflexes",
+                    "page": 497,
+                    "subsections": [
+                        {
+                            "number": "16.5a",
+                            "title": "Components of a Reflex Arc",
+                            "page": 500
+                        },
+                        {
+                            "number": "16.5b",
+                            "title": "Examples of Spinal Reflexes",
+                            "page": 502
+                        },
+                        {
+                            "number": "16.5c",
+                            "title": "Reflex Testing in a Clinical Setting",
+                            "page": 502
+                        }
+                    ]
+                },
+                {
+                    "number": "16.6",
+                    "title": "Development of the Spinal Cord",
+                    "page": 503,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 17,
+            "title": "Pathways and Integrative Functions",
+            "page": 508,
+            "sections": [
+                {
+                    "number": "17.1",
+                    "title": "General Characteristics of Nervous System Pathways",
+                    "page": 509,
+                    "subsections": []
+                },
+                {
+                    "number": "17.2",
+                    "title": "Sensory Pathways",
+                    "page": 509,
+                    "subsections": [
+                        {
+                            "number": "17.2a",
+                            "title": "Functional Anatomy of Sensory Pathways",
+                            "page": 510
+                        }
+                    ]
+                },
+                {
+                    "number": "17.3",
+                    "title": "Motor Pathways",
+                    "page": 513,
+                    "subsections": [
+                        {
+                            "number": "17.3a",
+                            "title": "Functional Anatomy of Motor Pathways",
+                            "page": 513
+                        },
+                        {
+                            "number": "17.3b",
+                            "title": "Levels of Processing and Motor Control",
+                            "page": 518
+                        }
+                    ]
+                },
+                {
+                    "number": "17.4",
+                    "title": "Higher-Order Processing and Integrative Functions",
+                    "page": 518,
+                    "subsections": [
+                        {
+                            "number": "17.4a",
+                            "title": "Development and Maturation of Higher-Order Processing",
+                            "page": 519
+                        },
+                        {
+                            "number": "17.4b",
+                            "title": "Hemispheric Lateralization",
+                            "page": 519
+                        },
+                        {
+                            "number": "17.4c",
+                            "title": "Language",
+                            "page": 519
+                        },
+                        {
+                            "number": "17.4d",
+                            "title": "Cognition",
+                            "page": 520
+                        },
+                        {
+                            "number": "17.4e",
+                            "title": "Memory",
+                            "page": 521
+                        },
+                        {
+                            "number": "17.4f",
+                            "title": "Consciousness",
+                            "page": 522
+                        },
+                        {
+                            "number": "17.4g",
+                            "title": "Electroencephalogram",
+                            "page": 523
+                        },
+                        {
+                            "number": "17.4h",
+                            "title": "Sleep",
+                            "page": 524
+                        }
+                    ]
+                },
+                {
+                    "number": "17.5",
+                    "title": "Aging and the Nervous System",
+                    "page": 525,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 18,
+            "title": "Autonomic Nervous System",
+            "page": 530,
+            "sections": [
+                {
+                    "number": "18.1",
+                    "title": "Comparison of the Somatic and Autonomic Nervous Systems",
+                    "page": 531,
+                    "subsections": [
+                        {
+                            "number": "18.1a",
+                            "title": "Motor Neurons of the Somatic Versus Autonomic Nervous System",
+                            "page": 532
+                        }
+                    ]
+                },
+                {
+                    "number": "18.2",
+                    "title": "Divisions of the Autonomic Nervous System",
+                    "page": 533,
+                    "subsections": [
+                        {
+                            "number": "18.2a",
+                            "title": "Functional Differences",
+                            "page": 533
+                        },
+                        {
+                            "number": "18.2b",
+                            "title": "Anatomic Differences in Lower Motor Neurons",
+                            "page": 534
+                        }
+                    ]
+                },
+                {
+                    "number": "18.3",
+                    "title": "Parasympathetic Division",
+                    "page": 535,
+                    "subsections": [
+                        {
+                            "number": "18.3a",
+                            "title": "Cranial Components",
+                            "page": 535
+                        },
+                        {
+                            "number": "18.3b",
+                            "title": "Pelvic Splanchnic Nerves",
+                            "page": 537
+                        },
+                        {
+                            "number": "18.3c",
+                            "title": "Effects and General Functions of the Parasympathetic Division",
+                            "page": 537
+                        }
+                    ]
+                },
+                {
+                    "number": "18.4",
+                    "title": "Sympathetic Division",
+                    "page": 537,
+                    "subsections": [
+                        {
+                            "number": "18.4a",
+                            "title": "Organization and Anatomy of the Sympathetic Division",
+                            "page": 537
+                        },
+                        {
+                            "number": "18.4b",
+                            "title": "Sympathetic Pathways",
+                            "page": 540
+                        },
+                        {
+                            "number": "18.4c",
+                            "title": "Effects and General Functions of the Sympathetic Division",
+                            "page": 540
+                        }
+                    ]
+                },
+                {
+                    "number": "18.5",
+                    "title": "Other Features of the Autonomic Nervous System",
+                    "page": 542,
+                    "subsections": [
+                        {
+                            "number": "18.5a",
+                            "title": "Autonomic Plexuses",
+                            "page": 542
+                        },
+                        {
+                            "number": "18.5b",
+                            "title": "Enteric Nervous System",
+                            "page": 543
+                        },
+                        {
+                            "number": "18.5c",
+                            "title": "Overview of ANS Neurotransmitters",
+                            "page": 544
+                        },
+                        {
+                            "number": "18.5d",
+                            "title": "Autonomic Tone",
+                            "page": 545
+                        },
+                        {
+                            "number": "18.5e",
+                            "title": "Dual Innervation",
+                            "page": 545
+                        },
+                        {
+                            "number": "18.5f",
+                            "title": "Systems Controlled Only by the Sympathetic Division",
+                            "page": 546
+                        },
+                        {
+                            "number": "18.5g",
+                            "title": "Autonomic Reflexes",
+                            "page": 546
+                        }
+                    ]
+                },
+                {
+                    "number": "18.6",
+                    "title": "CNS Control of Autonomic Function",
+                    "page": 548,
+                    "subsections": []
+                },
+                {
+                    "number": "18.7",
+                    "title": "Development of the Autonomic Nervous System",
+                    "page": 548,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 19,
+            "title": "Senses: General and Special",
+            "page": 552,
+            "sections": [
+                {
+                    "number": "19.1",
+                    "title": "Introduction to Sensory Receptors",
+                    "page": 553,
+                    "subsections": [
+                        {
+                            "number": "19.1a",
+                            "title": "Properties of Sensory Receptors",
+                            "page": 553
+                        },
+                        {
+                            "number": "19.1b",
+                            "title": "Classification of Sensory Receptors",
+                            "page": 554
+                        }
+                    ]
+                },
+                {
+                    "number": "19.2",
+                    "title": "Tactile Receptors",
+                    "page": 557,
+                    "subsections": [
+                        {
+                            "number": "19.2a",
+                            "title": "Unencapsulated Tactile Receptors",
+                            "page": 557
+                        },
+                        {
+                            "number": "19.2b",
+                            "title": "Encapsulated Tactile Receptors",
+                            "page": 559
+                        }
+                    ]
+                },
+                {
+                    "number": "19.3",
+                    "title": "Olfaction",
+                    "page": 559,
+                    "subsections": [
+                        {
+                            "number": "19.3a",
+                            "title": "Olfactory Receptor Cells",
+                            "page": 559
+                        },
+                        {
+                            "number": "19.3b",
+                            "title": "Olfactory Discrimination",
+                            "page": 560
+                        },
+                        {
+                            "number": "19.3c",
+                            "title": "Olfactory Pathways",
+                            "page": 560
+                        }
+                    ]
+                },
+                {
+                    "number": "19.4",
+                    "title": "Gustation",
+                    "page": 561,
+                    "subsections": [
+                        {
+                            "number": "19.4a",
+                            "title": "Papillae and Taste Buds of the Tongue",
+                            "page": 561
+                        },
+                        {
+                            "number": "19.4b",
+                            "title": "Gustatory Discrimination",
+                            "page": 562
+                        },
+                        {
+                            "number": "19.4c",
+                            "title": "Gustatory Pathways",
+                            "page": 562
+                        }
+                    ]
+                },
+                {
+                    "number": "19.5",
+                    "title": "Vision",
+                    "page": 562,
+                    "subsections": [
+                        {
+                            "number": "19.5a",
+                            "title": "Accessory Structures of the Eye",
+                            "page": 563
+                        },
+                        {
+                            "number": "19.5b",
+                            "title": "Eye Structure",
+                            "page": 564
+                        },
+                        {
+                            "number": "19.5c",
+                            "title": "Visual Pathways",
+                            "page": 572
+                        },
+                        {
+                            "number": "19.5d",
+                            "title": "Development of the Eye",
+                            "page": 573
+                        }
+                    ]
+                },
+                {
+                    "number": "19.6",
+                    "title": "Equilibrium and Hearing",
+                    "page": 576,
+                    "subsections": [
+                        {
+                            "number": "19.6a",
+                            "title": "External Ear",
+                            "page": 576
+                        },
+                        {
+                            "number": "19.6b",
+                            "title": "Middle Ear",
+                            "page": 577
+                        },
+                        {
+                            "number": "19.6c",
+                            "title": "Inner Ear",
+                            "page": 578
+                        },
+                        {
+                            "number": "19.6d",
+                            "title": "Development of the Ear",
+                            "page": 589
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 20,
+            "title": "Endocrine System",
+            "page": 595,
+            "sections": [
+                {
+                    "number": "20.1",
+                    "title": "Endocrine Glands and Hormones",
+                    "page": 596,
+                    "subsections": [
+                        {
+                            "number": "20.1a",
+                            "title": "Overview of Hormones",
+                            "page": 596
+                        },
+                        {
+                            "number": "20.1b",
+                            "title": "Negative and Positive Feedback",
+                            "page": 598
+                        }
+                    ]
+                },
+                {
+                    "number": "20.2",
+                    "title": "Hypothalamic Control of the Endocrine System",
+                    "page": 598,
+                    "subsections": []
+                },
+                {
+                    "number": "20.3",
+                    "title": "Pituitary Gland",
+                    "page": 601,
+                    "subsections": [
+                        {
+                            "number": "20.3a",
+                            "title": "Anterior Pituitary",
+                            "page": 601
+                        },
+                        {
+                            "number": "20.3b",
+                            "title": "Posterior Pituitary",
+                            "page": 604
+                        }
+                    ]
+                },
+                {
+                    "number": "20.4",
+                    "title": "Thyroid Gland",
+                    "page": 605,
+                    "subsections": [
+                        {
+                            "number": "20.4a",
+                            "title": "Synthesis of Thyroid Hormone by Thyroid Follicles",
+                            "page": 605
+                        },
+                        {
+                            "number": "20.4b",
+                            "title": "Thyroid Gland–Pituitary Gland Negative Feedback",
+                            "page": 607
+                        },
+                        {
+                            "number": "20.4c",
+                            "title": "Parafollicular Cells",
+                            "page": 608
+                        }
+                    ]
+                },
+                {
+                    "number": "20.5",
+                    "title": "Parathyroid Glands",
+                    "page": 610,
+                    "subsections": []
+                },
+                {
+                    "number": "20.6",
+                    "title": "Adrenal Glands",
+                    "page": 611,
+                    "subsections": [
+                        {
+                            "number": "20.6a",
+                            "title": "Adrenal Cortex",
+                            "page": 611
+                        },
+                        {
+                            "number": "20.6b",
+                            "title": "Adrenal Medulla",
+                            "page": 613
+                        }
+                    ]
+                },
+                {
+                    "number": "20.7",
+                    "title": "Pancreas",
+                    "page": 615,
+                    "subsections": []
+                },
+                {
+                    "number": "20.8",
+                    "title": "Pineal Gland and Thymus",
+                    "page": 618,
+                    "subsections": []
+                },
+                {
+                    "number": "20.9",
+                    "title": "Endocrine Functions of the Kidneys, Heart, Gastrointestinal Tract, and Gonads",
+                    "page": 618,
+                    "subsections": [
+                        {
+                            "number": "20.9a",
+                            "title": "Kidneys",
+                            "page": 618
+                        },
+                        {
+                            "number": "20.9b",
+                            "title": "Heart",
+                            "page": 619
+                        },
+                        {
+                            "number": "20.9c",
+                            "title": "Gastrointestinal Tract",
+                            "page": 619
+                        },
+                        {
+                            "number": "20.9d",
+                            "title": "Gonads",
+                            "page": 619
+                        }
+                    ]
+                },
+                {
+                    "number": "20.10",
+                    "title": "Aging and the Endocrine System",
+                    "page": 619,
+                    "subsections": []
+                },
+                {
+                    "number": "20.11",
+                    "title": "Development of the Endocrine System",
+                    "page": 619,
+                    "subsections": [
+                        {
+                            "number": "20.11a",
+                            "title": "Adrenal Glands",
+                            "page": 619
+                        },
+                        {
+                            "number": "20.11b",
+                            "title": "Pituitary Gland",
+                            "page": 619
+                        },
+                        {
+                            "number": "20.11c",
+                            "title": "Thyroid Gland",
+                            "page": 621
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 21,
+            "title": "Blood",
+            "page": 625,
+            "sections": [
+                {
+                    "number": "21.1",
+                    "title": "General Composition and Functions of Blood",
+                    "page": 626,
+                    "subsections": [
+                        {
+                            "number": "21.1a",
+                            "title": "Components of Blood",
+                            "page": 626
+                        },
+                        {
+                            "number": "21.1b",
+                            "title": "Functions of Blood",
+                            "page": 627
+                        }
+                    ]
+                },
+                {
+                    "number": "21.2",
+                    "title": "Blood Plasma",
+                    "page": 627,
+                    "subsections": [
+                        {
+                            "number": "21.2a",
+                            "title": "Plasma Proteins",
+                            "page": 627
+                        },
+                        {
+                            "number": "21.2b",
+                            "title": "Other Solutes in Plasma",
+                            "page": 627
+                        },
+                        {
+                            "number": "21.2c",
+                            "title": "Differences Between Plasma and Interstitial Fluid",
+                            "page": 628
+                        }
+                    ]
+                },
+                {
+                    "number": "21.3",
+                    "title": "Formed Elements in the Blood",
+                    "page": 628,
+                    "subsections": [
+                        {
+                            "number": "21.3a",
+                            "title": "Erythrocytes",
+                            "page": 629
+                        },
+                        {
+                            "number": "21.3b",
+                            "title": "Leukocytes",
+                            "page": 636
+                        },
+                        {
+                            "number": "21.3c",
+                            "title": "Platelets",
+                            "page": 638
+                        }
+                    ]
+                },
+                {
+                    "number": "21.4",
+                    "title": "Hematopoiesis: Production of Formed Elements",
+                    "page": 639,
+                    "subsections": [
+                        {
+                            "number": "21.4a",
+                            "title": "Erythropoiesis",
+                            "page": 640
+                        },
+                        {
+                            "number": "21.4b",
+                            "title": "Thrombopoiesis",
+                            "page": 642
+                        },
+                        {
+                            "number": "21.4c",
+                            "title": "Leukopoiesis",
+                            "page": 642
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 22,
+            "title": "Heart",
+            "page": 645,
+            "sections": [
+                {
+                    "number": "22.1",
+                    "title": "Overview of the Cardiovascular System",
+                    "page": 646,
+                    "subsections": [
+                        {
+                            "number": "22.1a",
+                            "title": "Pulmonary and Systemic Circulations",
+                            "page": 646
+                        },
+                        {
+                            "number": "22.1b",
+                            "title": "Position of the Heart",
+                            "page": 647
+                        },
+                        {
+                            "number": "22.1c",
+                            "title": "Characteristics of the Pericardium",
+                            "page": 647
+                        }
+                    ]
+                },
+                {
+                    "number": "22.2",
+                    "title": "Anatomy of the Heart",
+                    "page": 648,
+                    "subsections": [
+                        {
+                            "number": "22.2a",
+                            "title": "Heart Wall Structure",
+                            "page": 649
+                        },
+                        {
+                            "number": "22.2b",
+                            "title": "External Heart Anatomy",
+                            "page": 649
+                        },
+                        {
+                            "number": "22.2c",
+                            "title": "Internal Heart Anatomy: Chambers and Valves",
+                            "page": 649
+                        }
+                    ]
+                },
+                {
+                    "number": "22.3",
+                    "title": "Coronary Circulation",
+                    "page": 656,
+                    "subsections": []
+                },
+                {
+                    "number": "22.4",
+                    "title": "How the Heart Beats: Electrical Properties of Cardiac Tissue",
+                    "page": 658,
+                    "subsections": [
+                        {
+                            "number": "22.4a",
+                            "title": "Characteristics of Cardiac Muscle Tissue",
+                            "page": 658
+                        },
+                        {
+                            "number": "22.4b",
+                            "title": "Contraction of Heart Muscle",
+                            "page": 658
+                        },
+                        {
+                            "number": "22.4c",
+                            "title": "The Heart’s Conducting System",
+                            "page": 658
+                        }
+                    ]
+                },
+                {
+                    "number": "22.5",
+                    "title": "Innervation of the Heart",
+                    "page": 661,
+                    "subsections": []
+                },
+                {
+                    "number": "22.6",
+                    "title": "Tying It All Together: The Cardiac Cycle",
+                    "page": 663,
+                    "subsections": [
+                        {
+                            "number": "22.6a",
+                            "title": "Steps in the Cardiac Cycle",
+                            "page": 663
+                        },
+                        {
+                            "number": "22.6b",
+                            "title": "Summary of Blood Flow During the Cardiac Cycle",
+                            "page": 663
+                        }
+                    ]
+                },
+                {
+                    "number": "22.7",
+                    "title": "Aging and the Heart",
+                    "page": 666,
+                    "subsections": []
+                },
+                {
+                    "number": "22.8",
+                    "title": "Development of the Heart",
+                    "page": 667,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 23,
+            "title": "Vessels and Circulation",
+            "page": 673,
+            "sections": [
+                {
+                    "number": "23.1",
+                    "title": "Anatomy of Blood Vessels",
+                    "page": 674,
+                    "subsections": [
+                        {
+                            "number": "23.1a",
+                            "title": "Blood Vessel Tunics",
+                            "page": 674
+                        },
+                        {
+                            "number": "23.1b",
+                            "title": "Arteries",
+                            "page": 674
+                        },
+                        {
+                            "number": "23.1c",
+                            "title": "Capillaries",
+                            "page": 676
+                        },
+                        {
+                            "number": "23.1d",
+                            "title": "Veins",
+                            "page": 678
+                        }
+                    ]
+                },
+                {
+                    "number": "23.2",
+                    "title": "Blood Pressure",
+                    "page": 681,
+                    "subsections": []
+                },
+                {
+                    "number": "23.3",
+                    "title": "Systemic Circulation",
+                    "page": 683,
+                    "subsections": [
+                        {
+                            "number": "23.3a",
+                            "title": "General Arterial Flow Out of the Heart",
+                            "page": 683
+                        },
+                        {
+                            "number": "23.3b",
+                            "title": "General Venous Return to the Heart",
+                            "page": 683
+                        },
+                        {
+                            "number": "23.3c",
+                            "title": "Blood Flow Through the Head and Neck",
+                            "page": 683
+                        },
+                        {
+                            "number": "23.3d",
+                            "title": "Blood Flow Through the Thoracic and Abdominal Walls",
+                            "page": 689
+                        },
+                        {
+                            "number": "23.3e",
+                            "title": "Blood Flow Through the Thoracic Organs and Spinal Cord",
+                            "page": 690
+                        },
+                        {
+                            "number": "23.3f",
+                            "title": "Blood Flow Through the Gastrointestinal Tract",
+                            "page": 692
+                        },
+                        {
+                            "number": "23.3g",
+                            "title": "Blood Flow Through the Posterior Abdominal Organs, Pelvis, and Perineum",
+                            "page": 695
+                        },
+                        {
+                            "number": "23.3h",
+                            "title": "Blood Flow Through the Upper Limb",
+                            "page": 696
+                        },
+                        {
+                            "number": "23.3i",
+                            "title": "Blood Flow Through the Lower Limb",
+                            "page": 699
+                        }
+                    ]
+                },
+                {
+                    "number": "23.4",
+                    "title": "Pulmonary Circulation",
+                    "page": 703,
+                    "subsections": []
+                },
+                {
+                    "number": "23.5",
+                    "title": "Review of Heart, Systemic, and Pulmonary Circulation",
+                    "page": 703,
+                    "subsections": []
+                },
+                {
+                    "number": "23.6",
+                    "title": "Aging and the Cardiovascular System",
+                    "page": 704,
+                    "subsections": []
+                },
+                {
+                    "number": "23.7",
+                    "title": "Blood Vessel Development",
+                    "page": 705,
+                    "subsections": [
+                        {
+                            "number": "23.7a",
+                            "title": "Artery Development",
+                            "page": 705
+                        },
+                        {
+                            "number": "23.7b",
+                            "title": "Vein Development",
+                            "page": 705
+                        },
+                        {
+                            "number": "23.7c",
+                            "title": "Comparison of Fetal and Postnatal Circulation",
+                            "page": 706
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 24,
+            "title": "Lymphatic System",
+            "page": 714,
+            "sections": [
+                {
+                    "number": "24.1",
+                    "title": "Functions of the Lymphatic System",
+                    "page": 715,
+                    "subsections": []
+                },
+                {
+                    "number": "24.2",
+                    "title": "Lymph and Lymphatic Vessels",
+                    "page": 716,
+                    "subsections": [
+                        {
+                            "number": "24.2a",
+                            "title": "Lymphatic Capillaries",
+                            "page": 716
+                        },
+                        {
+                            "number": "24.2b",
+                            "title": "Lymphatic Vessels",
+                            "page": 716
+                        },
+                        {
+                            "number": "24.2c",
+                            "title": "Lymphatic Trunks",
+                            "page": 717
+                        },
+                        {
+                            "number": "24.2d",
+                            "title": "Lymphatic Ducts",
+                            "page": 717
+                        }
+                    ]
+                },
+                {
+                    "number": "24.3",
+                    "title": "Lymphoid Cells",
+                    "page": 717,
+                    "subsections": [
+                        {
+                            "number": "24.3a",
+                            "title": "Types and Functions of Lymphocytes",
+                            "page": 719
+                        },
+                        {
+                            "number": "24.3b",
+                            "title": "Lymphopoiesis",
+                            "page": 723
+                        }
+                    ]
+                },
+                {
+                    "number": "24.4",
+                    "title": "Lymphoid Structures",
+                    "page": 725,
+                    "subsections": [
+                        {
+                            "number": "24.4a",
+                            "title": "Lymphoid Nodules",
+                            "page": 725
+                        },
+                        {
+                            "number": "24.4b",
+                            "title": "Lymphoid Organs",
+                            "page": 725
+                        }
+                    ]
+                },
+                {
+                    "number": "24.5",
+                    "title": "Aging and the Lymphatic System",
+                    "page": 731,
+                    "subsections": []
+                },
+                {
+                    "number": "24.6",
+                    "title": "Development of the Lymphatic System",
+                    "page": 731,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 25,
+            "title": "Respiratory System",
+            "page": 737,
+            "sections": [
+                {
+                    "number": "25.1",
+                    "title": "General Organization and Functions of the Respiratory System",
+                    "page": 738,
+                    "subsections": [
+                        {
+                            "number": "25.1a",
+                            "title": "Respiratory System Functions",
+                            "page": 738
+                        }
+                    ]
+                },
+                {
+                    "number": "25.2",
+                    "title": "Upper Respiratory Tract",
+                    "page": 740,
+                    "subsections": [
+                        {
+                            "number": "25.2a",
+                            "title": "Nose and Nasal Cavity",
+                            "page": 740
+                        },
+                        {
+                            "number": "25.2b",
+                            "title": "Paranasal Sinuses",
+                            "page": 740
+                        },
+                        {
+                            "number": "25.2c",
+                            "title": "Pharynx",
+                            "page": 740
+                        },
+                        {
+                            "number": "25.2d",
+                            "title": "Larynx",
+                            "page": 743
+                        }
+                    ]
+                },
+                {
+                    "number": "25.3",
+                    "title": "Lower Respiratory Tract",
+                    "page": 745,
+                    "subsections": [
+                        {
+                            "number": "25.3a",
+                            "title": "Trachea",
+                            "page": 747
+                        },
+                        {
+                            "number": "25.3b",
+                            "title": "Bronchial Tree",
+                            "page": 748
+                        },
+                        {
+                            "number": "25.3c",
+                            "title": "Respiratory Bronchioles, Alveolar Ducts, and Alveoli",
+                            "page": 750
+                        }
+                    ]
+                },
+                {
+                    "number": "25.4",
+                    "title": "Lungs",
+                    "page": 752,
+                    "subsections": [
+                        {
+                            "number": "25.4a",
+                            "title": "Pleura and Pleural Cavities",
+                            "page": 752
+                        },
+                        {
+                            "number": "25.4b",
+                            "title": "Gross Anatomy of the Lungs",
+                            "page": 752
+                        },
+                        {
+                            "number": "25.4c",
+                            "title": "Blood Supply to and from the Lungs",
+                            "page": 753
+                        },
+                        {
+                            "number": "25.4d",
+                            "title": "Lymphatic Drainage",
+                            "page": 753
+                        }
+                    ]
+                },
+                {
+                    "number": "25.5",
+                    "title": "Pulmonary Ventilation",
+                    "page": 756,
+                    "subsections": []
+                },
+                {
+                    "number": "25.6",
+                    "title": "Mechanics of Breathing",
+                    "page": 757,
+                    "subsections": [
+                        {
+                            "number": "25.6a",
+                            "title": "Skeletal Muscles of Breathing",
+                            "page": 757
+                        },
+                        {
+                            "number": "25.6b",
+                            "title": "Volume Changes in the Thoracic Cavity",
+                            "page": 757
+                        }
+                    ]
+                },
+                {
+                    "number": "25.7",
+                    "title": "Innervation of the Respiratory System",
+                    "page": 758,
+                    "subsections": [
+                        {
+                            "number": "25.7a",
+                            "title": "Ventilation Control by Respiratory Centers of the Brain",
+                            "page": 758
+                        }
+                    ]
+                },
+                {
+                    "number": "25.8",
+                    "title": "Aging and the Respiratory System",
+                    "page": 761,
+                    "subsections": []
+                },
+                {
+                    "number": "25.9",
+                    "title": "Development of the Respiratory System",
+                    "page": 764,
+                    "subsections": []
+                }
+            ]
+        },
+        {
+            "chapterNumber": 26,
+            "title": "Digestive System",
+            "page": 769,
+            "sections": [
+                {
+                    "number": "26.1",
+                    "title": "General Structure and Functions of the Digestive System",
+                    "page": 770,
+                    "subsections": [
+                        {
+                            "number": "26.1a",
+                            "title": "Digestive System Functions",
+                            "page": 770
+                        }
+                    ]
+                },
+                {
+                    "number": "26.2",
+                    "title": "Oral Cavity",
+                    "page": 771,
+                    "subsections": [
+                        {
+                            "number": "26.2a",
+                            "title": "Cheeks, Lips, and Palate",
+                            "page": 771
+                        },
+                        {
+                            "number": "26.2b",
+                            "title": "Tongue",
+                            "page": 772
+                        },
+                        {
+                            "number": "26.2c",
+                            "title": "Salivary Glands",
+                            "page": 772
+                        },
+                        {
+                            "number": "26.2d",
+                            "title": "Teeth",
+                            "page": 774
+                        }
+                    ]
+                },
+                {
+                    "number": "26.3",
+                    "title": "Pharynx",
+                    "page": 776,
+                    "subsections": []
+                },
+                {
+                    "number": "26.4",
+                    "title": "General Arrangement of Abdominal GI Organs",
+                    "page": 776,
+                    "subsections": [
+                        {
+                            "number": "26.4a",
+                            "title": "Peritoneum, Peritoneal Cavity, and Mesentery",
+                            "page": 777
+                        },
+                        {
+                            "number": "26.4b",
+                            "title": "General Histology of GI Organs (Esophagus to Large Intestine)",
+                            "page": 777
+                        },
+                        {
+                            "number": "26.4c",
+                            "title": "Blood Vessels, Lymphoid Structures, and Nerve Supply",
+                            "page": 779
+                        }
+                    ]
+                },
+                {
+                    "number": "26.5",
+                    "title": "Esophagus",
+                    "page": 780,
+                    "subsections": [
+                        {
+                            "number": "26.5a",
+                            "title": "Gross Anatomy",
+                            "page": 780
+                        },
+                        {
+                            "number": "26.5b",
+                            "title": "Histology",
+                            "page": 780
+                        }
+                    ]
+                },
+                {
+                    "number": "26.6",
+                    "title": "The Swallowing Process",
+                    "page": 781,
+                    "subsections": []
+                },
+                {
+                    "number": "26.7",
+                    "title": "Stomach",
+                    "page": 783,
+                    "subsections": [
+                        {
+                            "number": "26.7a",
+                            "title": "Gross Anatomy",
+                            "page": 783
+                        },
+                        {
+                            "number": "26.7b",
+                            "title": "Histology",
+                            "page": 783
+                        },
+                        {
+                            "number": "26.7c",
+                            "title": "Gastric Secretions",
+                            "page": 784
+                        }
+                    ]
+                },
+                {
+                    "number": "26.8",
+                    "title": "Small Intestine",
+                    "page": 787,
+                    "subsections": [
+                        {
+                            "number": "26.8a",
+                            "title": "Gross Anatomy and Regions",
+                            "page": 787
+                        },
+                        {
+                            "number": "26.8b",
+                            "title": "Histology",
+                            "page": 787
+                        }
+                    ]
+                },
+                {
+                    "number": "26.9",
+                    "title": "Large Intestine",
+                    "page": 789,
+                    "subsections": [
+                        {
+                            "number": "26.9a",
+                            "title": "Gross Anatomy and Regions",
+                            "page": 789
+                        },
+                        {
+                            "number": "26.9b",
+                            "title": "Histology",
+                            "page": 790
+                        },
+                        {
+                            "number": "26.9c",
+                            "title": "Control of Large Intestine Activity",
+                            "page": 793
+                        }
+                    ]
+                },
+                {
+                    "number": "26.10",
+                    "title": "Accessory Digestive Organs",
+                    "page": 793,
+                    "subsections": [
+                        {
+                            "number": "26.10a",
+                            "title": "Liver",
+                            "page": 793
+                        },
+                        {
+                            "number": "26.10b",
+                            "title": "Gallbladder",
+                            "page": 796
+                        },
+                        {
+                            "number": "26.10c",
+                            "title": "Biliary Apparatus",
+                            "page": 796
+                        },
+                        {
+                            "number": "26.10d",
+                            "title": "Pancreas",
+                            "page": 797
+                        }
+                    ]
+                },
+                {
+                    "number": "26.11",
+                    "title": "Aging and the Digestive System",
+                    "page": 799,
+                    "subsections": []
+                },
+                {
+                    "number": "26.12",
+                    "title": "Development of the Digestive System",
+                    "page": 799,
+                    "subsections": [
+                        {
+                            "number": "26.12a",
+                            "title": "Stomach, Duodenum, and Omenta Development",
+                            "page": 799
+                        },
+                        {
+                            "number": "26.12b",
+                            "title": "Liver, Gallbladder, and Pancreas Development",
+                            "page": 799
+                        },
+                        {
+                            "number": "26.12c",
+                            "title": "Intestine Development",
+                            "page": 801
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 27,
+            "title": "Urinary System",
+            "page": 806,
+            "sections": [
+                {
+                    "number": "27.1",
+                    "title": "General Structure and Functions of the Urinary System",
+                    "page": 807,
+                    "subsections": []
+                },
+                {
+                    "number": "27.2",
+                    "title": "Kidneys",
+                    "page": 809,
+                    "subsections": [
+                        {
+                            "number": "27.2a",
+                            "title": "Gross and Sectional Anatomy of the Kidney",
+                            "page": 809
+                        },
+                        {
+                            "number": "27.2b",
+                            "title": "Blood Supply to the Kidney",
+                            "page": 810
+                        },
+                        {
+                            "number": "27.2c",
+                            "title": "Innervation of the Kidney",
+                            "page": 812
+                        },
+                        {
+                            "number": "27.2d",
+                            "title": "Nephrons",
+                            "page": 812
+                        },
+                        {
+                            "number": "27.2e",
+                            "title": "Collecting Tubules and Collecting Ducts: How Tubular Fluid Becomes Urine",
+                            "page": 816
+                        },
+                        {
+                            "number": "27.2f",
+                            "title": "Juxtaglomerular Apparatus",
+                            "page": 817
+                        }
+                    ]
+                },
+                {
+                    "number": "27.3",
+                    "title": "Urinary Tract",
+                    "page": 817,
+                    "subsections": [
+                        {
+                            "number": "27.3a",
+                            "title": "Ureters",
+                            "page": 817
+                        },
+                        {
+                            "number": "27.3b",
+                            "title": "Urinary Bladder",
+                            "page": 819
+                        },
+                        {
+                            "number": "27.3c",
+                            "title": "Urethra",
+                            "page": 821
+                        },
+                        {
+                            "number": "27.3d",
+                            "title": "Micturition",
+                            "page": 822
+                        }
+                    ]
+                },
+                {
+                    "number": "27.4",
+                    "title": "Aging and the Urinary System",
+                    "page": 823,
+                    "subsections": []
+                },
+                {
+                    "number": "27.5",
+                    "title": "Development of the Urinary System",
+                    "page": 824,
+                    "subsections": [
+                        {
+                            "number": "27.5a",
+                            "title": "Kidney and Ureter Development",
+                            "page": 824
+                        },
+                        {
+                            "number": "27.5b",
+                            "title": "Urinary Bladder and Urethra Development",
+                            "page": 824
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterNumber": 28,
+            "title": "Reproductive System",
+            "page": 830,
+            "sections": [
+                {
+                    "number": "28.1",
+                    "title": "Comparison of the Female and Male Reproductive Systems",
+                    "page": 831,
+                    "subsections": [
+                        {
+                            "number": "28.1a",
+                            "title": "Perineum",
+                            "page": 831
+                        }
+                    ]
+                },
+                {
+                    "number": "28.2",
+                    "title": "Anatomy of the Female Reproductive System",
+                    "page": 832,
+                    "subsections": [
+                        {
+                            "number": "28.2a",
+                            "title": "Ovaries",
+                            "page": 832
+                        },
+                        {
+                            "number": "28.2b",
+                            "title": "Uterine Tubes",
+                            "page": 839
+                        },
+                        {
+                            "number": "28.2c",
+                            "title": "Uterus",
+                            "page": 841
+                        },
+                        {
+                            "number": "28.2d",
+                            "title": "Vagina",
+                            "page": 843
+                        },
+                        {
+                            "number": "28.2e",
+                            "title": "External Genitalia",
+                            "page": 844
+                        },
+                        {
+                            "number": "28.2f",
+                            "title": "Mammary Glands",
+                            "page": 845
+                        }
+                    ]
+                },
+                {
+                    "number": "28.3",
+                    "title": "Anatomy of the Male Reproductive System",
+                    "page": 849,
+                    "subsections": [
+                        {
+                            "number": "28.3a",
+                            "title": "Scrotum",
+                            "page": 849
+                        },
+                        {
+                            "number": "28.3b",
+                            "title": "Spermatic Cord",
+                            "page": 851
+                        },
+                        {
+                            "number": "28.3c",
+                            "title": "Testes",
+                            "page": 851
+                        },
+                        {
+                            "number": "28.3d",
+                            "title": "Ducts in the Male Reproductive System",
+                            "page": 854
+                        },
+                        {
+                            "number": "28.3e",
+                            "title": "Accessory Glands",
+                            "page": 855
+                        },
+                        {
+                            "number": "28.3f",
+                            "title": "Semen",
+                            "page": 856
+                        },
+                        {
+                            "number": "28.3g",
+                            "title": "Penis",
+                            "page": 857
+                        }
+                    ]
+                },
+                {
+                    "number": "28.4",
+                    "title": "Aging and the Reproductive Systems",
+                    "page": 858,
+                    "subsections": []
+                },
+                {
+                    "number": "28.5",
+                    "title": "Development of the Reproductive Systems",
+                    "page": 860,
+                    "subsections": [
+                        {
+                            "number": "28.5a",
+                            "title": "Genetic Versus Phenotypic Sex",
+                            "page": 860
+                        },
+                        {
+                            "number": "28.5b",
+                            "title": "Formation of Indifferent Gonads and Genital Ducts",
+                            "page": 860
+                        },
+                        {
+                            "number": "28.5c",
+                            "title": "Internal Genitalia Development",
+                            "page": 862
+                        },
+                        {
+                            "number": "28.5d",
+                            "title": "External Genitalia Development",
+                            "page": 862
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
