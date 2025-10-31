@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    test_user:
+      name: The Tester
+      email: mail@test.gr
+      password: $2b$12$hlyFX8AF9hYZ1qOv4pfIkehdAZZqYoYCvs/LzuI52l/e/1KZOIbyG
+cookie:
+  name: my_app_cookie
+  key: LLgprt346
+  expiry_days: 1
