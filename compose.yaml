@@ -1,0 +1,13 @@
+services:
+  rag-feedback:
+    image: rag-anatomy-feedback
+    build:
+      context: ./app
+      dockerfile: Dockerfile.streamlit
+    env_file:
+      - .env
+
+    command: ["streamlit", "run", "app.py", "--server.runOnSave=true"]
+
+    ports:
+      - 8501:8501
