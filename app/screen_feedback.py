@@ -1,4 +1,38 @@
 import streamlit as st
+import pandas as pd
+from llm import async_embed_text, async_response_openai, GenText
+from ranker import retrieve_top_k
+from prompts import Prompts
+import asyncio
+
+RETRIEVAL_TOP_K = 1
+OPENAI_MODEL = 'gpt-4o-mini'
+df_rag = pd.read_parquet('book_partition_1.parquet')
+
+async def generate_feedback(question, student_answer):
+    # Async calls
+    question_text_embedding = await async_embed_text(text=question)
+    df_rag_ranked = retrieve_top_k(
+        df_rag=df_rag,
+        query_embedding=question_text_embedding,
+        top_k=RETRIEVAL_TOP_K
+    )
+
+    retrieved_text = " \n".join(df_rag_ranked['subchapter_text'].values)
+    system_prompt, user_prompt = await Prompts.feedback(
+        question=question,
+        student_answer=student_answer,
+        retrieved_text=retrieved_text
+    )
+    response = await async_response_openai(
+        system_prompt=system_prompt,
+        user_prompt=user_prompt,
+        model=OPENAI_MODEL,
+        response_model=GenText,
+        temperature=0.0001
+    )
+    return response.text
+
 
 def render_feedback_ui(question: str = "", student_answer: str = "") -> None:
     """
@@ -36,26 +70,12 @@ def render_feedback_ui(question: str = "", student_answer: str = "") -> None:
                 with st.spinner("Generating feedback..."):
                     # ---- MOCK FEEDBACK ----
                     # Replace this with your AI / model integration
-                    feedback_text = f"""
-**Strengths** ✅
-- Clearly addressed the main topic.
-- Good structure and logical flow.
-
-**Weaknesses** ⚠️
-- Missing examples for some points.
-- Minor grammatical errors.
-
-**Suggestions** 💡
-- Include references or citations if applicable.
-- Expand on key concepts for clarity.
-
-**Score:** 7/10
-"""
+                    feedback_text = asyncio.run(generate_feedback(question, student_answer))
                 # ---------- FEEDBACK DISPLAY ----------
                 st.markdown("### 📋 Feedback")
                 st.markdown(feedback_text, unsafe_allow_html=True)
 
                 # Optional: Add colored alert boxes for categories
-                st.success("Strengths highlighted above")
-                st.warning("Weaknesses highlighted above")
-                st.info("Suggestions highlighted above")
+                # st.success("Strengths highlighted above")
+                # st.warning("Weaknesses highlighted above")
+                # st.info("Suggestions highlighted above")
