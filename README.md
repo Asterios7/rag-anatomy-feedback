@@ -1,5 +1,8 @@
 https://www.youtube.com/watch?v=EUxkKELGChM
 
+Azure AI search
+https://www.youtube.com/watch?v=_2Ax43Dd3Fg
+
 Goal 200-400 tokens per embedding
 
 Tables - convert to markdown with chatgpt
