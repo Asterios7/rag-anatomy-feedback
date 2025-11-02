@@ -31,7 +31,18 @@ async def generate_feedback(question, student_answer):
         response_model=GenText,
         temperature=0.0001
     )
-    return response.text
+
+    citations = []
+    for i, row in df_rag_ranked.iterrows():
+        citations.append(
+            f"**{i+1}. Chapter {row.chapter_number}: {row.chapter_title}**  "
+            f"• Subchapter {row.subchapter_number}: {row.subchapter_title}  "
+            f"• Page: {row.subchapter_page}"
+        )
+
+    citations_text = "\n\n 📚 Citations\n\n" + "\n\n".join(citations)
+
+    return response.text + citations_text
 
 
 def render_feedback_ui(question: str = "", student_answer: str = "") -> None:
