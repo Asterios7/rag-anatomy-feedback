@@ -7,7 +7,7 @@ import asyncio
 
 RETRIEVAL_TOP_K = 1
 OPENAI_MODEL = 'gpt-4o-mini'
-df_rag = pd.read_parquet('book_partition_1.parquet')
+df_rag = pd.read_parquet('book_partition_full.parquet')
 
 async def generate_feedback(question, student_answer):
     # Async calls
