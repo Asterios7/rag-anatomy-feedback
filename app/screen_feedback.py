@@ -49,6 +49,10 @@ def render_feedback_ui(question: str = "", student_answer: str = "") -> None:
     """
     Renders the exam question, student answer input, and feedback display.
     """
+    # ---------- HEADER ----------
+    st.markdown("<h1 style='text-align: center; color: #4B8BBE;'>Exam Feedback AI</h1>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center; color: #555;'>Get instant feedback on student answers</h4>", unsafe_allow_html=True)
+    st.write("---")
 
     # ---------- INPUT SECTION ----------
     with st.container():
