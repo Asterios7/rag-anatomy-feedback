@@ -1,0 +1,110 @@
+name: Deploy Streamlit to Azure
+
+on:
+  workflow_dispatch:
+    inputs:
+      RESOURCE_GROUP:
+        description: "Resource Group Name"
+        required: true
+        default: "test_rg"
+      LOCATION:
+        description: "Azure Region"
+        required: true
+        default: "eastus"
+      APP_NAME:
+        description: "Container App Name"
+        required: true
+        default: "streamlit-app"
+      IMAGE_NAME:
+        description: "Docker Image Name (without registry)"
+        required: true
+        default: "streamlit-app"
+      IMAGE_TAG:
+        description: "Docker Image Tag"
+        required: true
+        default: "latest"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Login to Azure CLI
+        uses: azure/login@v2
+        with:
+          creds: |
+            {
+              "clientId": "${{ secrets.AZURE_CLIENT_ID }}",
+              "clientSecret": "${{ secrets.AZURE_CLIENT_SECRET }}",
+              "tenantId": "${{ secrets.AZURE_TENANT_ID }}",
+              "subscriptionId": "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
+            }
+
+      # - name: Set variables from inputs
+      #   run: |
+      #     echo "RESOURCE_GROUP=${{ github.event.inputs.RESOURCE_GROUP }}" >> $GITHUB_ENV
+      #     echo "LOCATION=${{ github.event.inputs.LOCATION }}" >> $GITHUB_ENV
+      #     echo "APP_NAME=${{ github.event.inputs.APP_NAME }}" >> $GITHUB_ENV
+      #     echo "IMAGE_NAME=${{ github.event.inputs.IMAGE_NAME }}" >> $GITHUB_ENV
+      #     echo "IMAGE_TAG=${{ github.event.inputs.IMAGE_TAG }}" >> $GITHUB_ENV
+      #     echo "ENV_NAME=${{ github.event.inputs.APP_NAME }}-env" >> $GITHUB_ENV
+      #     echo "ACR_NAME=${{ github.event.inputs.RESOURCE_GROUP }}acr" >> $GITHUB_ENV
+
+      # - name: Create or update Resource Group
+      #   run: |
+      #     az group create --name $RESOURCE_GROUP --location $LOCATION
+
+      # - name: Create or update Azure Container Registry
+      #   run: |
+      #     EXISTING_ACR=$(az acr show --name $ACR_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
+      #     if [ -z "$EXISTING_ACR" ]; then
+      #       az acr create --name $ACR_NAME --resource-group $RESOURCE_GROUP --sku Basic --admin-enabled true
+      #     else
+      #       echo "ACR $ACR_NAME already exists."
+      #     fi
+
+      # - name: Build and Push Docker image to ACR
+      #   run: |
+      #     az acr login --name $ACR_NAME
+      #     FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
+      #     docker build -t $FULL_IMAGE .
+      #     docker push $FULL_IMAGE
+
+      # - name: Create or update Container App Environment
+      #   run: |
+      #     EXISTING_ENV=$(az containerapp env show --name $ENV_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
+      #     if [ -z "$EXISTING_ENV" ]; then
+      #       az containerapp env create \
+      #         --name $ENV_NAME \
+      #         --resource-group $RESOURCE_GROUP \
+      #         --location $LOCATION
+      #     else
+      #       echo "Environment $ENV_NAME already exists."
+      #     fi
+
+      # - name: Deploy or update Container App from ACR
+      #   run: |
+      #     FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
+      #     EXISTING_APP=$(az containerapp show --name $APP_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
+      #     if [ -z "$EXISTING_APP" ]; then
+      #       az containerapp create \
+      #         --name $APP_NAME \
+      #         --resource-group $RESOURCE_GROUP \
+      #         --environment $ENV_NAME \
+      #         --image $FULL_IMAGE \
+      #         --ingress external \
+      #         --target-port 8501 \
+      #         --cpu 1 --memory 2Gi \
+      #         --registry-login-server "$ACR_NAME.azurecr.io" \
+      #         --registry-username $(az acr credential show --name $ACR_NAME --query "username" -o tsv) \
+      #         --registry-password $(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
+      #     else
+      #       az containerapp update \
+      #         --name $APP_NAME \
+      #         --resource-group $RESOURCE_GROUP \
+      #         --image $FULL_IMAGE \
+      #         --registry-login-server "$ACR_NAME.azurecr.io" \
+      #         --registry-username $(az acr credential show --name $ACR_NAME --query "username" -o tsv) \
+      #         --registry-password $(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
