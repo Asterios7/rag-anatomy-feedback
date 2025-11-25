@@ -239,7 +239,10 @@ class Prompts:
                     question. Please ask another anatomy-related question."
                 - Otherwise, provide a clear, concise answer grounded in the passage.
 
-            3. At the end of every valid answer, include the citation list in parentheses.
+            3. At the end of every valid answer, include the respective citations in the end using this format:
+                - Chapter X: Chapter Title  • Subchapter XX: Subchapter Title  • Page: Page number
+                - Use bullet points for every citation
+                - Have the title Citations on top of the cited sources
 
             4. Do NOT mention that you are using RAG or retrieved text unless asked.
             """

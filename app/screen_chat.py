@@ -15,7 +15,7 @@ client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
 RETRIEVAL_TOP_K = 4
 OPENAI_MODEL = 'gpt-5.1'
-df_rag = pd.read_parquet('book_partition_full.parquet')
+df_rag = pd.read_parquet('./book/book_partition_full.parquet')
 
 
 async def augment_prompt(prompt: str) -> Tuple[str, str]:
