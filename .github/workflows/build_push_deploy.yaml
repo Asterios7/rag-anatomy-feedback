@@ -36,19 +36,19 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      # - name: Set variables from inputs
-      #   run: |
-      #     echo "RESOURCE_GROUP=${{ github.event.inputs.RESOURCE_GROUP }}" >> $GITHUB_ENV
-      #     echo "LOCATION=${{ github.event.inputs.LOCATION }}" >> $GITHUB_ENV
-      #     echo "APP_NAME=${{ github.event.inputs.APP_NAME }}" >> $GITHUB_ENV
-      #     echo "IMAGE_NAME=${{ github.event.inputs.IMAGE_NAME }}" >> $GITHUB_ENV
-      #     echo "IMAGE_TAG=${{ github.event.inputs.IMAGE_TAG }}" >> $GITHUB_ENV
-      #     echo "ENV_NAME=${{ github.event.inputs.APP_NAME }}-env" >> $GITHUB_ENV
-      #     echo "ACR_NAME=${{ github.event.inputs.RESOURCE_GROUP }}acr" >> $GITHUB_ENV
+      - name: Set variables from inputs
+        run: |
+          echo "RESOURCE_GROUP=${{ github.event.inputs.RESOURCE_GROUP }}" >> $GITHUB_ENV
+          echo "LOCATION=${{ github.event.inputs.LOCATION }}" >> $GITHUB_ENV
+          echo "APP_NAME=${{ github.event.inputs.APP_NAME }}" >> $GITHUB_ENV
+          echo "IMAGE_NAME=${{ github.event.inputs.IMAGE_NAME }}" >> $GITHUB_ENV
+          echo "IMAGE_TAG=${{ github.event.inputs.IMAGE_TAG }}" >> $GITHUB_ENV
+          echo "ENV_NAME=${{ github.event.inputs.APP_NAME }}-env" >> $GITHUB_ENV
+          echo "ACR_NAME=${{ github.event.inputs.RESOURCE_GROUP }}acr" >> $GITHUB_ENV
 
-      # - name: Create or update Resource Group
-      #   run: |
-      #     az group create --name $RESOURCE_GROUP --location $LOCATION
+      - name: Create or update Resource Group
+        run: |
+          az group create --name $RESOURCE_GROUP --location $LOCATION
 
       # - name: Create or update Azure Container Registry
       #   run: |
