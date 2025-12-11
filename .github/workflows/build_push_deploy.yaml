@@ -102,3 +102,4 @@ jobs:
               --registry-login-server "$ACR_NAME.azurecr.io" \
               --registry-username $(az acr credential show --name $ACR_NAME --query "username" -o tsv) \
               --registry-password $(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
+          fi
