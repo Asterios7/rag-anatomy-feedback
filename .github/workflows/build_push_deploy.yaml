@@ -63,42 +63,42 @@ jobs:
         run: |
           az acr login --name $ACR_NAME
           FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
-          docker build -t $FULL_IMAGE .
+          docker build -t $FULL_IMAGE -f app/Dockerfile.streamlit app
           docker push $FULL_IMAGE
 
-      # - name: Create or update Container App Environment
-      #   run: |
-      #     EXISTING_ENV=$(az containerapp env show --name $ENV_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
-      #     if [ -z "$EXISTING_ENV" ]; then
-      #       az containerapp env create \
-      #         --name $ENV_NAME \
-      #         --resource-group $RESOURCE_GROUP \
-      #         --location $LOCATION
-      #     else
-      #       echo "Environment $ENV_NAME already exists."
-      #     fi
+      - name: Create or update Container App Environment
+        run: |
+          EXISTING_ENV=$(az containerapp env show --name $ENV_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
+          if [ -z "$EXISTING_ENV" ]; then
+            az containerapp env create \
+              --name $ENV_NAME \
+              --resource-group $RESOURCE_GROUP \
+              --location $LOCATION
+          else
+            echo "Environment $ENV_NAME already exists."
+          fi
 
-      # - name: Deploy or update Container App from ACR
-      #   run: |
-      #     FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
-      #     EXISTING_APP=$(az containerapp show --name $APP_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
-      #     if [ -z "$EXISTING_APP" ]; then
-      #       az containerapp create \
-      #         --name $APP_NAME \
-      #         --resource-group $RESOURCE_GROUP \
-      #         --environment $ENV_NAME \
-      #         --image $FULL_IMAGE \
-      #         --ingress external \
-      #         --target-port 8501 \
-      #         --cpu 1 --memory 2Gi \
-      #         --registry-login-server "$ACR_NAME.azurecr.io" \
-      #         --registry-username $(az acr credential show --name $ACR_NAME --query "username" -o tsv) \
-      #         --registry-password $(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
-      #     else
-      #       az containerapp update \
-      #         --name $APP_NAME \
-      #         --resource-group $RESOURCE_GROUP \
-      #         --image $FULL_IMAGE \
-      #         --registry-login-server "$ACR_NAME.azurecr.io" \
-      #         --registry-username $(az acr credential show --name $ACR_NAME --query "username" -o tsv) \
-      #         --registry-password $(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
+      - name: Deploy or update Container App from ACR
+        run: |
+          FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
+          EXISTING_APP=$(az containerapp show --name $APP_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
+          if [ -z "$EXISTING_APP" ]; then
+            az containerapp create \
+              --name $APP_NAME \
+              --resource-group $RESOURCE_GROUP \
+              --environment $ENV_NAME \
+              --image $FULL_IMAGE \
+              --ingress external \
+              --target-port 8501 \
+              --cpu 1 --memory 2Gi \
+              --registry-login-server "$ACR_NAME.azurecr.io" \
+              --registry-username $(az acr credential show --name $ACR_NAME --query "username" -o tsv) \
+              --registry-password $(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
+          else
+            az containerapp update \
+              --name $APP_NAME \
+              --resource-group $RESOURCE_GROUP \
+              --image $FULL_IMAGE \
+              --registry-login-server "$ACR_NAME.azurecr.io" \
+              --registry-username $(az acr credential show --name $ACR_NAME --query "username" -o tsv) \
+              --registry-password $(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
