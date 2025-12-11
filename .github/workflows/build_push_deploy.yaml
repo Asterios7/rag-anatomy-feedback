@@ -6,7 +6,7 @@ on:
       RESOURCE_GROUP:
         description: "Resource Group Name"
         required: true
-        default: "test_rg"
+        default: "testrg"
       LOCATION:
         description: "Azure Region"
         required: true
