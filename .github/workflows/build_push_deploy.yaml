@@ -10,7 +10,7 @@ on:
       LOCATION:
         description: "Azure Region"
         required: true
-        default: "eastus"
+        default: "westeurope"
       APP_NAME:
         description: "Container App Name"
         required: true
@@ -50,21 +50,21 @@ jobs:
         run: |
           az group create --name $RESOURCE_GROUP --location $LOCATION
 
-      # - name: Create or update Azure Container Registry
-      #   run: |
-      #     EXISTING_ACR=$(az acr show --name $ACR_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
-      #     if [ -z "$EXISTING_ACR" ]; then
-      #       az acr create --name $ACR_NAME --resource-group $RESOURCE_GROUP --sku Basic --admin-enabled true
-      #     else
-      #       echo "ACR $ACR_NAME already exists."
-      #     fi
+      - name: Create or update Azure Container Registry
+        run: |
+          EXISTING_ACR=$(az acr show --name $ACR_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
+          if [ -z "$EXISTING_ACR" ]; then
+            az acr create --name $ACR_NAME --resource-group $RESOURCE_GROUP --sku Basic --admin-enabled true
+          else
+            echo "ACR $ACR_NAME already exists."
+          fi
 
-      # - name: Build and Push Docker image to ACR
-      #   run: |
-      #     az acr login --name $ACR_NAME
-      #     FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
-      #     docker build -t $FULL_IMAGE .
-      #     docker push $FULL_IMAGE
+      - name: Build and Push Docker image to ACR
+        run: |
+          az acr login --name $ACR_NAME
+          FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
+          docker build -t $FULL_IMAGE .
+          docker push $FULL_IMAGE
 
       # - name: Create or update Container App Environment
       #   run: |
