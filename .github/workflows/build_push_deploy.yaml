@@ -66,38 +66,33 @@ jobs:
           docker build -t $FULL_IMAGE -f app/Dockerfile.streamlit app
           docker push $FULL_IMAGE
 
-      - name: Create or update Container App Environment
-        run: |
-          EXISTING_ENV=$(az containerapp env show --name $ENV_NAME --resource-group $RESOURCE_GROUP --query "name" -o tsv || echo "")
-          if [ -z "$EXISTING_ENV" ]; then
-            az containerapp env create \
-              --name $ENV_NAME \
-              --resource-group $RESOURCE_GROUP \
-              --location $LOCATION
-          else
-            echo "Environment $ENV_NAME already exists."
-          fi
-
       - name: Create App Service Plan and Web App
         run: |
-          PLAN_NAME="${{ github.event.inputs.APP_NAME }}-plan"
+          PLAN_NAME="${APP_NAME}-plan"
+          FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
 
-          # 1. Create App Service Plan (Linux)
+          # 1. Create App Service Plan
           echo "Creating App Service Plan..."
           az appservice plan create --name $PLAN_NAME --resource-group $RESOURCE_GROUP --sku B1 --is-linux
 
-          # 2. Get ACR Credentials (so Web App can pull the image)
-          echo "Retrieving ACR Credentials..."
-          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --query "username" -o tsv)
-          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
-          FULL_IMAGE="$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
-
-          # 3. Create the Web App
-          echo "Creating Web App..."
+          # 2. Create the Web App 
+          # We create it with the image name, but without credentials yet.
+          echo "Creating Web App resource..."
           az webapp create --resource-group $RESOURCE_GROUP \
             --plan $PLAN_NAME \
             --name $APP_NAME \
-            --deployment-container-image-name $FULL_IMAGE \
+            --deployment-container-image-name $FULL_IMAGE
+
+          # 3. Get ACR Credentials
+          echo "Retrieving ACR credentials..."
+          ACR_USERNAME=$(az acr credential show --name $ACR_NAME --query "username" -o tsv)
+          ACR_PASSWORD=$(az acr credential show --name $ACR_NAME --query "passwords[0].value" -o tsv)
+
+          # 4. Configure Web App to use ACR Credentials
+          # This separate command securely injects the registry credentials
+          echo "Configuring Web App to pull from ACR..."
+          az webapp config container set --name $APP_NAME --resource-group $RESOURCE_GROUP \
+            --docker-custom-image-name $FULL_IMAGE \
             --docker-registry-server-url "https://$ACR_NAME.azurecr.io" \
             --docker-registry-server-user $ACR_USERNAME \
             --docker-registry-server-password $ACR_PASSWORD
