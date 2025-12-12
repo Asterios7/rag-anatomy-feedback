@@ -105,3 +105,8 @@ jobs:
 
           # 2. Set the Startup Command
           az webapp config set --resource-group $RESOURCE_GROUP --name $APP_NAME --startup-file "streamlit run app.py --server.port 8501 --server.address 0.0.0.0"
+
+      - name: Restart Web App to Pull New Image
+        run: |
+          echo "Restarting the Web App to ensure latest container is pulled..."
+          az webapp restart --name $APP_NAME --resource-group $RESOURCE_GROUP
