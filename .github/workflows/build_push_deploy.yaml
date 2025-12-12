@@ -97,8 +97,11 @@ jobs:
             --docker-registry-server-user $ACR_USERNAME \
             --docker-registry-server-password $ACR_PASSWORD
 
-      - name: Configure Streamlit Port
+      - name: Configure Web App Settings (Port, Startup, Env Vars)
         run: |
-          # Streamlit runs on 8501, but Azure listens on 80/443. 
-          # This tells Azure where to route traffic inside the container.
-          az webapp config appsettings set --resource-group $RESOURCE_GROUP --name $APP_NAME --settings WEBSITES_PORT=8501
+          # 1. Set App Settings (Environment Variables)
+          # We add OPENAI_API_KEY here so Streamlit can access it at runtime.
+          az webapp config appsettings set --resource-group $RESOURCE_GROUP --name $APP_NAME --settings WEBSITES_PORT=8501 OPENAI_API_KEY="${{ secrets.OPENAI_API_KEY }}"
+
+          # 2. Set the Startup Command
+          az webapp config set --resource-group $RESOURCE_GROUP --name $APP_NAME --startup-file "streamlit run app.py --server.port 8501 --server.address 0.0.0.0"
