@@ -20,7 +20,7 @@ def compute_distances(
         df_rag: pd.DataFrame, 
         query_embedding: list | np.ndarray,
         ) -> pd.DataFrame:
-    """Colputes euclidean distances"""
+    """Computes euclidean distances"""
     embeddings = np.vstack(df_rag["embedding"].to_numpy())
     query = np.array(query_embedding)
 
